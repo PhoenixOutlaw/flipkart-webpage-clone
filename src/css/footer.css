@@ -1,0 +1,73 @@
+.fcnt{
+    margin-top:    20px;
+    background-color: #172337;
+    color: white;
+}
+.ft{
+    background-color: white;
+    color:gray;
+    text-align: left;
+    padding: 20px;
+    padding-top:10px ;
+}
+.ft>h5{
+    font-weight: 480;
+}
+.fb{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.fb1{
+    display:flex;
+    padding: 40px;
+}
+.clmn{
+    text-align:left;
+    margin-left: 20px;
+}
+
+.clmn>ul{
+    margin-top:8px;
+    list-style: none;
+    padding: 0;
+}
+.clmn>ul>li>a{
+    font-size:12px;
+    font-weight:500;
+    text-decoration: none;
+    color:white;
+}
+.fb2{
+    border-top: solid gray thin ;
+    width: 100%;
+    display:flex;
+    justify-content:space-around;
+
+}
+
+.fb2opt{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.fb2opt>.MuiSvgIcon-root{
+    color: gold !important;
+    height:20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.fb2opt>h5{
+    font-size:13px;
+    font-weight: 500;
+    color: white;
+}
+
+.fb2opt>img{
+    height: 15px;
+}
+
+@media screen and (max-width: 700px) {
+  .fcnt{display: none;}
+}

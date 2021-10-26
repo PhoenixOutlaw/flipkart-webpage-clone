@@ -1,0 +1,138 @@
+.prdcnt{
+    padding: 10px;
+    text-align: left;
+}
+.prdh{
+    color: gray;
+    font-size:13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.prdh>div,.prdh>div>span{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.prdh>div>span{
+    margin-left: 10px;
+}
+.prdh>div>span>.MuiSvgIcon-root{
+    height:18px;
+    width: 18px;
+    margin-right: 5px;
+}
+.prd1>h2{
+    margin: 0;
+    font-size:17px;
+    font-weight: 450;
+}
+.availoffer>h4{
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+#offer{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+#offer>.MuiSvgIcon-root{
+    color: #388e3c;
+    height:15px;
+    width: 15px;
+}
+#offer>p{
+    margin-left: 5px;
+    font-size: 13px;
+    color: gray;
+}
+.form{
+    margin-top: 20px;
+    border:  rgba(235, 185, 185, 0.5) solid thin;
+    width: 68%;
+}
+.form>span{
+    padding: 0 20px 0 20px ;
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+.form>span>h4{
+    font-size:13px;
+    font-weight: 500;
+}
+.specifications,.reviews,.qna{
+    margin-top:20px;
+    border: rgba(0, 0, 0, 0.068) solid thin;
+    padding: 10px
+}
+.specifications>h2,.reviews>h2,.qna>h2{
+    margin: 0;
+    padding-bottom: 6px;
+    font-weight: 450;
+    border-bottom: rgba(0, 0, 0, 0.123) solid thin;
+}
+#spcnt{
+    border-bottom: rgba(0, 0, 0, 0.11) solid thin;
+}
+.spl{
+    display: flex;
+    color: rgb(163, 163, 163);
+    font-size: 13px;
+}
+.splr{
+    flex: 0.3;
+    padding-right: 10px;
+}
+.spll{
+    flex: 0.7
+}
+.revcnt{
+    border-bottom: solid rgba(0, 0, 0, 0.103) thin;
+    padding: 10px;
+}
+.revh{
+    display: flex;
+    align-items: center;
+}
+.revh>h3{
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.revcnt>p{
+    color: rgba(0, 0, 0, 0.897);
+    font-size: 14px;
+    font-weight: 400;
+}
+.revf{
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+    justify-content:space-between;
+}
+.revf>p{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+.revf>p>span,.revf>span>span,.revf>span{
+    display: flex;
+    align-items: center;
+}
+.revf>span>span{
+    font-size:12px;
+    margin-right: 10px;
+}
+.qnacnt{padding-top:20px}
+.qnacnt>h3{
+    margin: 5px;
+    font-size: 13px;
+    font-weight: 550;
+}
+
+@media screen and (max-width: 700px) {
+   .prdh{display: none;}
+   .revf>p{display: none;}
+   .form{margin-left: auto;margin-right: auto;}
+}
