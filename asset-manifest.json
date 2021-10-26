@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/flipkart-webpage-clone/static/css/main.814e75d1.chunk.css",
+    "main.css": "/flipkart-webpage-clone/static/css/main.b186cd6f.chunk.css",
     "main.js": "/flipkart-webpage-clone/static/js/main.cc8cdf35.chunk.js",
     "main.js.map": "/flipkart-webpage-clone/static/js/main.cc8cdf35.chunk.js.map",
     "runtime-main.js": "/flipkart-webpage-clone/static/js/runtime-main.96a4073d.js",
@@ -10,13 +10,13 @@
     "static/js/3.c0d8e685.chunk.js": "/flipkart-webpage-clone/static/js/3.c0d8e685.chunk.js",
     "static/js/3.c0d8e685.chunk.js.map": "/flipkart-webpage-clone/static/js/3.c0d8e685.chunk.js.map",
     "index.html": "/flipkart-webpage-clone/index.html",
-    "static/css/main.814e75d1.chunk.css.map": "/flipkart-webpage-clone/static/css/main.814e75d1.chunk.css.map",
+    "static/css/main.b186cd6f.chunk.css.map": "/flipkart-webpage-clone/static/css/main.b186cd6f.chunk.css.map",
     "static/js/2.b0b14a25.chunk.js.LICENSE.txt": "/flipkart-webpage-clone/static/js/2.b0b14a25.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.96a4073d.js",
     "static/js/2.b0b14a25.chunk.js",
-    "static/css/main.814e75d1.chunk.css",
+    "static/css/main.b186cd6f.chunk.css",
     "static/js/main.cc8cdf35.chunk.js"
   ]
 }
